@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  window.location.href = `https://localhost:3000/insuredSuccess${window.location.search}`
   return (
     <div className="App">
       <header className="App-header">
